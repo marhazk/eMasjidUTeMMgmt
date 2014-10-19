@@ -1,0 +1,1 @@
+<?php include("modules/FAQ/open_FAQ.php"); ?>
