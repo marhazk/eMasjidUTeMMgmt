@@ -269,7 +269,7 @@ Masa:
     <tr>
       <td>Banner</td>
       <td>:</td>
-      <td><input type="file" name="ebanner" id="fileField" /></td>
+      <td><input type="file" name="ebanner" id="fileField" /><BR>(Nota: Saiz mestilah 500 panjang x 200 tinggi dan format JPEG)</td>
     </tr>
     <tr>
       <td width="40%">Butiran Terperinci </td>
@@ -277,7 +277,13 @@ Masa:
       <td width="58%">&nbsp;</td>
     </tr>
     <tr>
-      <td height="500" colspan="3" valign="top"><textarea name="edesc" id="edesc" cols="80" rows="30"><?php echo $rowDB["Description"]; ?></textarea></td>
+      <td height="500" colspan="3" valign="top">
+          <textarea name="edesc" id="edesc" cols="80" rows="30"><?php echo $rowDB["Description"]; ?></textarea>
+          <script type="text/javascript" src="./css/nicEdit.js"></script>
+          <script type="text/javascript">
+              bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
+          </script>
+      </td>
     </tr>
     <tr>
       <td width="40%">&nbsp;</td>

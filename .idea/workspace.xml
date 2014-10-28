@@ -1,10 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" name="Default" comment="" />
+    <list default="true" id="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/nicEditorIcons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/images/nicEditorIcons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/modules/poster/nobanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/poster/nobanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/modules/activityform3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/bootstrap-cerulean.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/charisma-app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/chosen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/colorbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/elfinder.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/elfinder.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/images/img.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/modules/poster/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/poster/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/jquery-ui-1.8.21.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/jquery.cleditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/jquery.iphone.toggle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/jquery.noty.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/nicEdit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/opa-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/test.01.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/uniform.default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/css/uploadify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/management/modules/venuemgmt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/modules/activityadd.php" afterPath="$PROJECT_DIR$/management/modules/activityadd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/modules/activityform.php" afterPath="$PROJECT_DIR$/management/modules/activityform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/modules/activityform2.php" afterPath="$PROJECT_DIR$/management/modules/activityform2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/modules/links.php" afterPath="$PROJECT_DIR$/management/modules/links.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/management/modules/livestream.php" afterPath="$PROJECT_DIR$/management/modules/livestream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="eMasjidUTeMMgmt.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1413701759787" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414491304187" ignored="false" />
+    <file path="/test.01.txt" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414405067460" ignored="false" />
+    <file path="/livestream.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414406000241" ignored="false" />
+    <file path="/venuemgmt.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414406872803" ignored="false" />
+    <file path="/links.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414406963761" ignored="false" />
+    <file path="/img.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414491328446" ignored="false" />
+    <file path="/activityform.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414492438418" ignored="false" />
+    <file path="/activityform2.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414491762788" ignored="false" />
+    <file path="/index.php" changelist="d7d5d86c-3f3c-48b5-8428-9954b3dc694a" time="1414491808030" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +64,95 @@
   <component name="FavoritesManager">
     <favorites_list name="eMasjidUTeMMgmt" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="activityedit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/modules/activityedit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="626" column="24" selection-start="17786" selection-end="17786" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activityadd.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/modules/activityadd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="551" column="48" selection-start="14980" selection-end="15188" vertical-scroll-proportion="-1.9019607">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activityform.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/management/modules/activityform.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="281" column="0" selection-start="12022" selection-end="12022" vertical-scroll-proportion="0.653944">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nicEdit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/css/nicEdit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="114" selection-start="7019" selection-end="7027" vertical-scroll-proportion="-4.08">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1366451893611" expanded="true" signature="3531:3545" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activityinfo.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/modules/activityinfo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="18" selection-start="752" selection-end="752" vertical-scroll-proportion="99.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activityform2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/management/modules/activityform2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="9" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/management/test.01.txt" />
+        <option value="$PROJECT_DIR$/management/modules/livestream.php" />
+        <option value="$PROJECT_DIR$/management/modules/venuemgmt.php" />
+        <option value="$PROJECT_DIR$/management/modules/links.php" />
+        <option value="$PROJECT_DIR$/management/modules/activityadd.php" />
+        <option value="$PROJECT_DIR$/management/images/nicEdit.js" />
+        <option value="$PROJECT_DIR$/management/images/img.php" />
+        <option value="$PROJECT_DIR$/management/modules/poster/index.php" />
+        <option value="$PROJECT_DIR$/management/poster/index.php" />
+        <option value="$PROJECT_DIR$/management/modules/activityform2.php" />
+        <option value="$PROJECT_DIR$/management/modules/activityform.php" />
+      </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
@@ -44,14 +169,14 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="All" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -63,6 +188,64 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eMasjidUTeMMgmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eMasjidUTeMMgmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eMasjidUTeMMgmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="management">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="eMasjidUTeMMgmt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="management">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="poster">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -71,28 +254,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eMasjidUTeMMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eMasjidUTeMMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eMasjidUTeMMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eMasjidUTeMMgmt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="PublishConfig">
+  <component name="PublishConfig" serverName="aera" serverId="99c3b2e7-5d95-4166-bc19-318b88b12484" autoUpload="true" uploadOnSaveAll="true">
     <servers>
       <server id="99c3b2e7-5d95-4166-bc19-318b88b12484">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" />
+            <mapping deploy="/domains/haztech.com.my/public_html/utem/management" local="$PROJECT_DIR$/management" web="utem.haztech.com.my/management" />
           </mappings>
         </serverdata>
       </server>
     </servers>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HDD\www\eMasjidUTeMMgmt\management\poster" />
+      <recent name="D:\HDD\www\eMasjidUTeMMgmt\management\modules\poster" />
+      <recent name="D:\HDD\www\eMasjidUTeMMgmt\management\modules" />
+      <recent name="D:\HDD\www\eMasjidUTeMMgmt\management\images" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="99c3b2e7-5d95-4166-bc19-318b88b12484" server_name="aera">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -108,24 +341,25 @@
     <frame x="-4" y="-4" width="1608" height="864" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18790218" sideWeight="0.67083335" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25611326" sideWeight="0.67083335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -187,6 +421,127 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/management/images/nicEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="19" selection-start="6362" selection-end="6362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/links.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="496" selection-end="496" vertical-scroll-proportion="0.49756098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/venuemgmt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="185" selection-end="185" vertical-scroll-proportion="0.15777262">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/livestream.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="309" selection-end="309" vertical-scroll-proportion="0.18660288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/test.01.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityedit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="626" column="24" selection-start="17786" selection-end="17786" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/poster/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="205" selection-end="205" vertical-scroll-proportion="0.37317073">
+          <folding>
+            <element signature="e#6#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/images/img.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="207" selection-end="207" vertical-scroll-proportion="0.37317073">
+          <folding>
+            <element signature="e#6#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/poster/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="39" selection-start="211" selection-end="211" vertical-scroll-proportion="0.124390244">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityform3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="31" selection-start="2739" selection-end="2743" vertical-scroll-proportion="-4.1908603">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityform2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="9" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/images/nicEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="19" selection-start="6362" selection-end="6362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityadd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="551" column="48" selection-start="14980" selection-end="15188" vertical-scroll-proportion="-1.9019607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="18" selection-start="752" selection-end="752" vertical-scroll-proportion="99.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/css/nicEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="114" selection-start="7019" selection-end="7027" vertical-scroll-proportion="-4.08">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1366451893611" expanded="true" signature="3531:3545" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/modules/activityform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="0" selection-start="12022" selection-end="12022" vertical-scroll-proportion="0.653944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 

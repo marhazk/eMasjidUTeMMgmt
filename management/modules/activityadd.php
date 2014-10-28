@@ -555,6 +555,7 @@ Time:
 <script type="text/javascript">
 	bkLib.onDomLoaded(function() { nicEditors.allTextAreas() });
 </script>
+
 <span id="sprytextarea1">
 <textarea name="edesc" cols="80" rows="30" id="pMsg"></textarea>
 </td>

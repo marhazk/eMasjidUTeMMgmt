@@ -10,6 +10,7 @@
 <li><a href="?op=activityCPD">Kemaskini CPD</a></li>
 <li><a href="?op=activityparticipants">Senarai Peserta</a></li>
 <li><a href="?op=FAQ/manage_FAQ">Kemaskini FAQ</a></li>
+<li><a href="?op=venuemgmt">Kemaskini Kawasan</a></li>
 <li><a href="?op=FAQ/AddFAQ">Tambah FAQ</a></li>
 <li><a href="?op=logout">Daftar Keluar</a></li>
 <?php }?>

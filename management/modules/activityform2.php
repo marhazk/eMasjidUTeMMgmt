@@ -40,11 +40,9 @@
       <td width="2%">:</td>
       <td width="58%"><?php echo $row["Description"];?></td>
     </tr>
-    <?php if (strlen($row["ImageURL"]) >= 1) {?>
     <tr>
-      <td height="500" colspan="3" valign="top"><img src="poster/<?php echo $row["ImageURL"];?>.jpg" width="500"></td>
+      <td height="500" colspan="3" valign="top"><img src="poster/?img=<?=$row["ImageURL"];?>" width="500"></td>
     </tr>
-    <?php }?>
     <tr>
       <td width="40%">&nbsp;</td>
       <td width="2%">&nbsp;</td>
