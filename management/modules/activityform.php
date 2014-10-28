@@ -294,8 +294,7 @@ Masa:
       <td width="40%">Penyertaan Peserta</td>
       <td width="2%">&nbsp;</td>
       <td width="58%">&nbsp;</td>
-    </tr>
-    <tr>
+    </tr>    <tr>
       <td>Pelajar UTeM </td>
       <?php 
 	  if ($rowDB["studentreg"] >= 1)
