@@ -30,7 +30,7 @@
 	//GENERATE attribute hari bermula disini
 	for ($num = 0; $num <= $totalDays; $num++)
 	{
-		$attrTable .= "<td width=15>".($num+1)."</td>";
+		$attrTable .= "<td width=20>".($num+1)."</td>";
 	}
 	//EOL (END OF LINE)
 	
@@ -47,11 +47,18 @@
 		foreach ($arr as $rx) {
 			if ($rx == 1)
 			{
-				$nameTable .= "<TD width=15 align=center>".$aChar."</TD>";
+				//$nameTable .= "<TD width=15 align=center>".$aChar."</TD>";
+                $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$aChar."</TD></TR><TR><TD>".$bChar."</TD></TR><TR><TD>".$bChar."</TD></TR></TABLE></TD>";
 			}
+			elseif ($rx == 2) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$bChar."</TD></TR><TR><TD>".$aChar."</TD></TR><TR><TD>".$bChar."</TD></TR></TABLE></TD>"; }
+			elseif ($rx == 3) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$aChar."</TD></TR><TR><TD>".$aChar."</TD></TR><TR><TD>".$bChar."</TD></TR></TABLE></TD>"; }
+			elseif ($rx == 4) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$bChar."</TD></TR><TR><TD>".$bChar."</TD></TR><TR><TD>".$aChar."</TD></TR></TABLE></TD>"; }
+			elseif ($rx == 5) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$aChar."</TD></TR><TR><TD>".$bChar."</TD></TR><TR><TD>".$aChar."</TD></TR></TABLE></TD>"; }
+			elseif ($rx == 6) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$bChar."</TD></TR><TR><TD>".$aChar."</TD></TR><TR><TD>".$aChar."</TD></TR></TABLE></TD>"; }
+			elseif ($rx == 7) { $nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$aChar."</TD></TR><TR><TD>".$aChar."</TD></TR><TR><TD>".$aChar."</TD></TR></TABLE></TD>"; }
 			else
 			{
-				$nameTable .= "<TD width=15 align=center>".$bChar."</TD>";
+				$nameTable .= "<TD width=20 align=center><TABLE><TR><TD>".$bChar."</TD></TR><TR><TD>".$bChar."</TD></TR><TR><TD>".$bChar."</TD></TR></TABLE></TD>";
 			}
 		}
 		$nameTable .= "</TR></table></TD></tr>";

@@ -10,7 +10,7 @@ function mail2PTJ($row, $oid, $title)
 	$condMonth = $year.$month2;
 	$dateStartEvent = $row["DateOfEvent"];
 		  
-	$uWeb_mailfrom = "bengkel2@1malaysia.utem.edu.my"; //sender 
+	$uWeb_mailfrom = "bengkel2@utem.haztech.utem.edu.my"; //sender 
 	$uWeb_mailhead = "Masjid Sayyidina Abu Bakar <masjid@utem.haztech.com.my>";
 	$subject = 'Jemputan ke '.$title;
 	$message2 = 'Salam __NAME__ (__USERID__)'. "\r\n\r\n" .'Anda dijemput untuk menghadiri ke '.$title.' pada '.$dateStartEvent.'. Sila klik link ini untuk ke program tersebut.'. "\r\n" .''. "\r\n" .'Link: http://utem.haztech.com.my/management/?op=activityjoin&auth=__AUTH__&aBulan='.$condMonth. "\r\n\r\n";
@@ -40,7 +40,7 @@ function mail2PTJ($row, $oid, $title)
 			//$headers = 'From: $uWeb_mailfrom' . "\r\n" .
 				'Reply-To: '.$uWeb_mailto . "\r\n" .
 				'X-Mailer: PHP/' . phpversion();
-			ini_set ( "SMTP", "mail.perfectworld.my" );
+			ini_set ( "SMTP", "mail.haztech.com.my" );
 			date_default_timezone_set('Asia/Kuching');
 			mail($to, $subject, $message, $headers);
 		}

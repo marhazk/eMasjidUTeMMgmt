@@ -31,11 +31,16 @@ if ($_POST["chk"] == "Simpan")
 		$uid = $srow["uid"];
 		for ($num = 0; $num <= $days; $num++)
 		{
-			$dayChk = $_POST["aID".$uid."day".$num];
-			if ($dayChk == 1)
-			{
-				$dayVal = 1;
-			}
+			$dayChk1 = $_POST["aID".$uid."day".$num."a"];
+			$dayChk2 = $_POST["aID".$uid."day".$num."b"];
+			$dayChk3 = $_POST["aID".$uid."day".$num."c"];
+			if (($dayChk1 == 1) && ($dayChk2 == 0) && ($dayChk3 == 0)) { $dayVal = 1; }
+			elseif (($dayChk1 == 0) && ($dayChk2 == 1) && ($dayChk3 == 0)) { $dayVal = 2; }
+			elseif (($dayChk1 == 1) && ($dayChk2 == 1) && ($dayChk3 == 0)) { $dayVal = 3; }
+			elseif (($dayChk1 == 0) && ($dayChk2 == 0) && ($dayChk3 == 1)) { $dayVal = 4; }
+			elseif (($dayChk1 == 1) && ($dayChk2 == 0) && ($dayChk3 == 1)) { $dayVal = 5; }
+			elseif (($dayChk1 == 0) && ($dayChk2 == 1) && ($dayChk3 == 1)) { $dayVal = 6; }
+			elseif (($dayChk1 == 1) && ($dayChk2 == 1) && ($dayChk3 == 1)) { $dayVal = 7; }
 			else
 			{
 				$dayVal = 0;
@@ -231,17 +236,45 @@ if ($_POST["chk"] == "Simpan")
 	$tokens = ":";
 	$arr = explode(':', $row["state"]);
 	//for ($tokenized = strtok($toklist, $tokens);$tokenized;$tokenized = strtok($tokens)) {
+    $chk = "checked=checked";
+    $nchk = "";
 	foreach ($arr as $rx) {
-		if ($rx == 1)
+        $a1 = "";
+        $a2 = "";
+        $a3 = "";
+		if ($rx == 1) //1 0 0
 		{
-			//echo "<input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum." checked=checked>Hari ".++$tokenNum;
-			echo "<td align=center><input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum." checked=checked></td>";
+            $a1 = $chk; $a2 = $nchk; $a3 = $nchk;
+		}
+		elseif ($rx == 2) //0 1 0
+		{
+            $a1 = $nchk; $a2 = $chk; $a3 = $nchk;
+		}
+		elseif ($rx == 3) // 1 1 0
+		{
+            $a1 = $chk; $a2 = $chk; $a3 = $nchk;
+		}
+		elseif ($rx == 4) // 0 0 1
+		{
+            $a1 = $nchk; $a2 = $nchk; $a3 = $chk;
+		}
+		elseif ($rx == 5) // 1 0 1
+		{
+            $a1 = $chk; $a2 = $nchk; $a3 = $chk;
+		}
+		elseif ($rx == 6) // 0 1 1
+		{
+            $a1 = $nchk; $a2 = $chk; $a3 = $chk;
+		}
+		elseif ($rx == 7) // 1 1 1
+		{
+            $a1 = $chk; $a2 = $chk; $a3 = $chk;
 		}
 		else
 		{
-			//echo "<input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum.">Hari ".++$tokenNum;
-			echo "<td align=center><input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum."></td>";
+            $a1 = $nchk; $a2 = $nchk; $a3 = $nchk;
 		}
+        echo "<td align=center>S1 <input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum."a ".$a1."><BR>S2 <input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum."b ".$a2."><BR>S3 <input type=checkbox value=1 name=aID".$StaffID."day".$tokenNum."c ".$a3."></td>";
 		$tokenNum++;
 	}
 	?>
@@ -251,6 +284,7 @@ if ($_POST["chk"] == "Simpan")
   </tr>
   <?php $num++; } } ?>
 </table>
+<BR/>Nota: S1 - Sesi 1, S2 - Sesi 2, S3 - Sesi 3
 <?php 
 if ($num > 1)
 {?>
